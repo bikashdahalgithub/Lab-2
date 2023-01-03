@@ -1,5 +1,6 @@
-﻿for (int i = 0; i < 10; i++)
-{
-    Console.WriteLine(i);
-    if (i == 7) break;
-}
+﻿Console.WriteLine("a" == "a");
+Console.WriteLine("a" == "A");
+Console.WriteLine(1 == 2);
+
+string myValue = "a";
+Console.WriteLine(myValue == "a");
